@@ -6,7 +6,7 @@ name: Github Pages
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-   - cron: '0 0 06 ? * SUN'    
+   - cron: "0 06 * 1-12 sun"    
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
