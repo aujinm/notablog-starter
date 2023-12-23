@@ -3,8 +3,8 @@
     <div class="Navbar__Btn">
       <% if (siteMeta.iconUrl) { %>
         <span><img class="inline-img-icon" src="<%= siteMeta.iconUrl %>"></span>&nbsp;
-        <% } %>
-          <span>Home</span>
+      <% } %>
+      <span>Home</span>
     </div>
   </a>
   <% siteMeta.pages.forEach(function(page) { %>
@@ -14,12 +14,10 @@
         <div class="Navbar__Btn">
           <% if (page.iconUrl) { %>
             <span><img class="inline-img-icon" src="<%= page.iconUrl %>"></span>&nbsp;
-            <% } %>
-              <span>
-                <%= page.title %>
-              </span>
+          <% } %>
+          <span><%= page.title %></span>
         </div>
       </a>
-      <% } %>
-        <% }) %>
+    <% } %>
+  <% }) %>
 </nav>
