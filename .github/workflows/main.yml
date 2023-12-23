@@ -29,8 +29,10 @@ jobs:
       - name: Build
         run: npm i -g notablog && notablog generate .
       # 2、部署到 GitHub Pages
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.1
+#      - name: Deploy
+#        uses: JamesIves/github-pages-deploy-action@v4.3.1
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
 
 #       - name: Deploy 改动地方
 #         uses: JamesIves/github-pages-deploy-action@v4.4.0
