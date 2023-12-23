@@ -183,7 +183,8 @@ pre.Code { /* 代码 */
 pre.Code code { /* 代码 */
   background-color: rgb(247, 246, 243);
   color: rgb(55, 53, 47);
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
+  font-size: 0.85em;
   line-height: 1.4;
   padding: 0;
   word-wrap: break-word; /* 使得单词能够换行 */
