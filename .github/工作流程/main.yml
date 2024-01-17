@@ -25,7 +25,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: aujinm/word
+          repository-name: aujinm/aujinm.github.io
           BRANCH: main
           FOLDER: public
 
