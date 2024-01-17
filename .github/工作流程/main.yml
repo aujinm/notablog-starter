@@ -25,7 +25,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: syx-413/syx-413.github.io
+          repository-name: aujinm/word
           BRANCH: main
           FOLDER: public
 
